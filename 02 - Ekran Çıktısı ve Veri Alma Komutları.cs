@@ -1,5 +1,5 @@
 
-// Ekrana Yaz Yazdırma)
+// Ekrana YazI Yazdırma
 
 	Console.WriteLine("Merhaba Dünya");
 	Console.Write(Merhaba Dünya); // Alt satıra inmez
