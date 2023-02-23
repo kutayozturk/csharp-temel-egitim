@@ -15,18 +15,16 @@ namespace ConsoleApp1
         private static void Main(string[] args)
         {
             double sayi = 10.0;
-            Console.WriteLine("sayı: "+ sayi);
+            Console.WriteLine("sayı: " + sayi);
             Yuzde18Hesapla(ref sayi);
             Console.WriteLine("Yeni sayı değeri: " + sayi);
 
             Console.ReadLine();
-           
         }
-        static void Yuzde18Hesapla(ref double sayi)
+
+        private static void Yuzde18Hesapla(ref double sayi)
         {
             sayi = sayi * 0.18;
         }
     }
-    
-
 }
