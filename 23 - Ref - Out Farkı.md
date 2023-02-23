@@ -1,4 +1,4 @@
-Out ve Ref Arasındaki Temel Farklar
+### Out ve Ref Arasındaki Temel Farklar
 
 Ref ve Out aslında benzer amaç için kullanılır.Temel farkları ise;
 
