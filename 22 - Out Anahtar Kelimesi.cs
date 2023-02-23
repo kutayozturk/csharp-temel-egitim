@@ -13,7 +13,7 @@ namespace ConsoleApp1
         private static void Main(string[] args)
         {
             double sayi;
-            Console.WriteLine("sayı: " + sayi);
+            Console.WriteLine("sayı: ");
             Yuzde18Hesapla(out sayi);
             Console.WriteLine("Yeni sayı değeri: " + sayi);
 
