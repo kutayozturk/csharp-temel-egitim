@@ -1,5 +1,7 @@
 // Parametre Adıyla Çalışma ve Varsayılan Parametre Ataması
 
+// Bu yöntemler tüm metotlarda (Fonksiyonlarda) kullanılabilir.
+
 using System;
 
 namespace ConsoleApp1
