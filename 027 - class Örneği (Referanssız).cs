@@ -35,7 +35,7 @@ namespace CLASS
     {
         private static void Main(string[] args)
         {
-            (new Ogrenci()).yazdir(); // Referansı olmayan bir nesne oluşturduk ve bu nesneyş kullandık.
+            (new Ogrenci()).yazdir(); // Referansı olmayan bir nesne oluşturduk ve bu nesneyi kullandık.
             Console.ReadKey();
         }
     }
