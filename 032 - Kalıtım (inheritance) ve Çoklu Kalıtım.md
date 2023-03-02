@@ -104,6 +104,7 @@ class Ev
 }
 ```
 ***Bu örnekte üyelerin public olduğuna dikkat ediniz. public yapılmak zorunda değildir. Anlaşılması kolay olması açısından public olarak güncelledim.***
+
 Şimdi de farklı ev tiplerimiz olsun, örneğin **Müstakil** ve **Apartman Dairesi** şeklinde.
 ```
 class Mustakil
