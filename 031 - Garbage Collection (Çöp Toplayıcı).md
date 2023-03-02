@@ -54,7 +54,7 @@ static void Main() {string[] args)
 ![](https://i.imgur.com/lZdD3Vl.png)
 
 Ogr2 ve Ogr4 referansları silindiğinde önce Stack alanından temizlenirler, daha sonra Heap içerisinde yer alan refereans sayıları "1" **(true)** değerinden "0" **(false)** değerine dönüştürülür.
-.NET'te yer alan **Garbage Collector** ne zaman devreye girerse Heap alaında yer alan "0" referans numaraları nesneler ***Çöp toplayıcı*** tarafından temizlenir. 
+.NET'te yer alan **Garbage Collector** ne zaman devreye girerse Heap alaında yer alan "0" referans numaralı nesneler ***Çöp toplayıcı*** tarafından temizlenir. 
 
 ![](https://i.imgur.com/I19wzOL.png)
 
