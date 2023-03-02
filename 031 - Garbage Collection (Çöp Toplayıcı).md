@@ -13,11 +13,11 @@ static void Main() {string[] args)
 ```
 Şeklinde bir kod yapımız olduğunu düşünelim.
 Burada ***ogr1*** referansı **Stack**'te oluşturulurken, **Heap** bölümünde ***new Ogrenci();*** nesnesi oluşturulurmuştur.
-.NET oluşturulan nesneler için referans sayısı tutar.
+.Net oluşturulan nesneler için referans sayısı tutar.
 
 ![](https://i.imgur.com/ljPSx1n.png)
 
-.NET oluşturulan bütün nesneler hiyeraşisinde tutar. Her nesneden haberi vardır. ***(Bu özellik .NET tabanlı diller için geçerlidir. C++ bu özelliğe sahip değildir.)***
+.Net oluşturulan bütün nesneleri hiyeraşisinde tutar. Her nesneden haberi vardır. ***(Bu özellik .NET tabanlı diller için geçerlidir. C++ bu özelliğe sahip değildir.)***
 
 ```
 static void Main() {string[] args)
@@ -40,7 +40,7 @@ Yukarıdaki kod incelendiğinde 3 adet nesne oluşturulduğu görülmektedir.
 
 ![](https://i.imgur.com/Gw2i6Fj.png)
 
-Görselden ed anlaşılacağı üzere, Stack'te oluşturulan referans değerleri Heap'te nesneleri işaret etmektedirler ve görüldüğü üzere referans sayıları bu nesneler içerisinde tutulur ve şuan tüm referans sayıları "1" **(true)** olarak tutulmaktadır.
+Görselden de anlaşılacağı üzere, Stack'te oluşturulan referans değerleri Heap'te nesneleri işaret etmektedirler ve görüldüğü üzere referans sayıları bu nesneler içerisinde tutulur ve şuan tüm referans sayıları "1" **(true)** olarak tutulmaktadır.
 
 Kod yapımız bu durumdayken sadece ogr1 referanslı nesneyi oluşturduğumuzda;
 
