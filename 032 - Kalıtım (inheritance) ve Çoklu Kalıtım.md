@@ -3,7 +3,7 @@ Nesneler arası ilişki kurmamızı sağlayan bir tekniktir.
 Kalıtım ortak özelliklere sahip birden fazla class yapısını birbiri ile ilişkilendirmede kullanılır.
 
 Örneğin;
-Bir demirbaş isimli bir class'ımız olsun. Bu class içerisinde demirbaş'a ait özelikler yer alsın.
+Demirbaş isimli bir class'ımız olsun. Bu class içerisinde demirbaş'a ait özelikler yer alsın.
 
 Kalıtımın Kullanım Ama
 ```
