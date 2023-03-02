@@ -53,7 +53,7 @@ class Projeksiyon
     private string cozunurluk;
 }
 ```
-Yukarıda görüldüğü üzere, **Kitap, Bilgisayar** ve **Projeksiyon** isimler class yapılarının içerisinde aslında **Demirbas** class'ına ait olan özelliklerde eklenmiştir. Bu gibi durumlarda, ortak özellikler Demirbas class'ında toplandığı için, kalıtım uygulanacak olan class'a, katılım özelliklerini içeren class **":"** ifadesi iel bağlanlamılıdır.
+Yukarıda görüldüğü üzere, **Kitap, Bilgisayar** ve **Projeksiyon** isimler class yapılarının içerisinde aslında **Demirbas** class'ına ait olan özelliklerde eklenmiştir. Bu gibi durumlarda, ortak özellikler Demirbas class'ında toplandığı için, kalıtım uygulanacak olan class'a, katılım özelliklerini içeren class **":"** ifadesi ile bağlanlamılıdır.
 
 yani **class Bilgisayar : Demirbas** şeklinde olmalıdır.
 
