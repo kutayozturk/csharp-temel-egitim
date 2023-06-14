@@ -1,12 +1,12 @@
 ## Encapsulation (Kapsülleme - İçerik Gizleme)
 - Üreticiler, kullanıcıların ürünlerin iç dizaynına erişmeden kullanabilmesini isterler.
 - Örneğin bir televizyon kumandası, dışında bulunan tuşlar aracılığıylşa kontrol edilebilmektedir. Kullanıcının kumandanın içeriğini bilmesine gerek yoktur.
-- Bu sayede kumandaların i. dizaynı değişse bile, kullanım şekli değişmediği için kullanıcının herhangi bir yeni bilgiye ihtiyacı olmaz.
+- Bu sayede kumandaların iç dizaynı değişse bile, kullanım şekli değişmediği için kullanıcının herhangi bir yeni bilgiye ihtiyacı olmaz.
 - Bir kapı zili düşünelim. Her bir zilin iç dizaynı birbirinden farklı olabilir fakat hepsi aynı şekilde çalışmaktadır. Böylece zillerin çalışma prensibi değişsede kullanım şekli aynı kalır.
 
 ---
 - Yazılımcı olarak tasarlardığımız sınıfların belirli kısımlarını, sınıfları kullanacak olan programcılardan saklamak isteyebiliriz. (private kullanmak gibi)
-- Bunun temel sebebi ilerleyen zamanalrda bu kısımların yeniden yazılması (geliştirilmesi veya hatalarının düzeltilmesi için) gerekebilir.
+- Bunun temel sebebi ilerleyen zamanlarda bu kısımların yeniden yazılması (geliştirilmesi veya hatalarının düzeltilmesi için) gerekebilir.
 - Kullanıcılar tasarladığımız sınıfların iç dizaynını kullanmadıkları için yaptığımız değişimler onların kodunu etkilemeyecektir. ***(20 yıl önce çıkmış olan bir bilgisayar oyunu düşünün. Bu oyun dirext ile çalışıyor diyelim. (OpenGL'de var) Şuanda bu oyunu bilgisayarınıza yükleseniz oynayabilirsiniz. Dirext sürümü güncellenmiş olsa bile. Çünkü diretx'in iç dizaynı değiştirilmemiştir. Sadece gerekli noktalara dokunulmuş olmasındandır.)***
 
 ![](https://i.imgur.com/UnK8Wy4.png)
