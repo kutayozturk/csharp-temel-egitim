@@ -37,11 +37,11 @@ NESNE OLUŞTURMA
 	{
 		Ogreci ogr1 = new Ogrenci(); 
 	/*	
-				|			|
-				|			|
-				|			|
+			|		|
+			|		|
+			|		|
 				
-			Referans	Nesne Oluşturuldu	
+		    Referans	   Nesne Oluşturuldu	
 		
 		
 		 Bir sınıf üretebilmek için, öncelikle onu bir REFERANSA atamamız gerekmektedir. Ogrenci class'ının ogr1 referansı
